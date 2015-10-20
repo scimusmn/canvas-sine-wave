@@ -12,13 +12,13 @@
     </head>
     <body>
 
-        <canvas id="sine_L1" style="top:100px; left:-150px; position:fixed; -webkit-transform: rotate(-45deg);" width="400" height="200"></canvas>
-        <canvas id="sine_L2" style="top:400px; left:-0px; position:fixed; -webkit-transform: rotate(0deg);" width="400" height="200"></canvas>
-        <canvas id="sine_L3" style="top:700px; left:-150px; position:fixed; -webkit-transform: rotate(45deg);" width="400" height="200"></canvas>
+        <canvas id="sine_L1" style="top:100px; left:50px; position:fixed;" width="400" height="200"></canvas>
+        <canvas id="sine_L2" style="top:400px; left:50px; position:fixed;" width="400" height="200"></canvas>
+        <canvas id="sine_L3" style="top:700px; left:50px; position:fixed;" width="400" height="200"></canvas>
 
-        <canvas id="sine_R1" style="top:100px; right:-150px; position:fixed; -webkit-transform: rotate(-135deg);" width="400" height="200"></canvas>
-        <canvas id="sine_R2" style="top:400px; right:-0px; position:fixed; -webkit-transform: rotate(180deg);" width="400" height="200"></canvas>
-        <canvas id="sine_R3" style="top:700px; right:-150px; position:fixed; -webkit-transform: rotate(-225deg);" width="400" height="200"></canvas>
+        <canvas id="sine_R1" style="top:100px; right:50px; position:fixed;" width="400" height="200"></canvas>
+        <canvas id="sine_R2" style="top:400px; right:50px; position:fixed;" width="400" height="200"></canvas>
+        <canvas id="sine_R3" style="top:700px; right:50px; position:fixed;" width="400" height="200"></canvas>
 
         <script src="CanvasSineWave.js"></script>
 
@@ -31,7 +31,7 @@
 
             var rightSines = [  new CanvasSineWave(document.getElementById('sine_R1'), {color:'rgb(0,255,0)', showFade:true, strokeWidth:30}),
                                 new CanvasSineWave(document.getElementById('sine_R2'), {showAxis:true, color:'rgb(0,255,255)', amplitude: 75}),
-                                new CanvasSineWave(document.getElementById('sine_R3'), {strokeWidth:1, amplitude: 10}),
+                                new CanvasSineWave(document.getElementById('sine_R3'), {strokeWidth:2, amplitude: 15}),
             ];
 
             document.onmousemove = function(e) {
