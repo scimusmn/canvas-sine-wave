@@ -1,12 +1,12 @@
 /**
  * CanvasSineWave
  *
- * This is intended as a lightweight method of drawing
+ * Intended as a lightweight method of drawing
  * an animated Sine Wave. You can control sine wave
  * parameters in realtime using setter methods.
  * Of course frequency and amplitude do not correspond
- * to any real world units, but you could add a legend.
- * Loosely based on code found here: http://goo.gl/uDnl
+ * to any real world units.
+ * Draw function based on code found here: http://goo.gl/uDnl
  *
  */
 
