@@ -88,11 +88,11 @@ var CanvasSineWave = function(_canvas, _options) {
   };
 
   /**
-   * Draw loop.
+   * Animation loop.
    *
    * This function draws one frame of the
-   * animation, waits 30ms, and then calls
-   * itself again.
+   * animation, waits for next animation frame,
+   * and then calls itself again.
    */
   this.draw = function() {
 
